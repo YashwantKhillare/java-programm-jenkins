@@ -6,6 +6,7 @@ public class Main {
         System.out.println("this is a java programm..!");
         System.out.println("output from java programm..!");
         System.out.println(new Date());
+        System.out.println("hello ji");
     }
 
 }
