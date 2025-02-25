@@ -1,0 +1,5 @@
+package com.daccess.serviceImpl;
+
+public class AdLoginServiceImpl {
+
+}

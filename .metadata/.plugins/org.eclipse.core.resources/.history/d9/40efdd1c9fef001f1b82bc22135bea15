@@ -1,0 +1,5 @@
+package com.daccess.entity;
+
+public class AdLoginMaster {
+
+}

@@ -1,0 +1,5 @@
+package com.daccess.repository;
+
+public interface AdLoginRepository {
+
+}

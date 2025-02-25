@@ -1,0 +1,5 @@
+package com.daccess.service;
+
+public interface AdLoginService {
+
+}

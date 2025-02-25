@@ -1,0 +1,26 @@
+package com.daccess.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.daccess.entity.Msg;
+import com.daccess.service.AdLoginService;
+
+@RestController
+@CrossOrigin
+public class AdLoginController {
+	
+	@Autowired
+	private AdLoginService adLoginService;
+	
+	public Msg adLoginCtrl(@RequestParam("userName")String userName) {
+		
+		Msg msg = adLoginService.loginService(userName);
+		
+		return msg;
+		
+	}
+
+}

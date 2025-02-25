@@ -1,0 +1,20 @@
+package com.daccess.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.daccess.entity.Msg;
+import com.daccess.service.AdLoginService;
+
+@Service
+public class AdLoginServiceImpl implements AdLoginService{
+
+	@Override
+	public Msg loginService(String userName) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		return Msg.successMessage("Login success");
+	}
+
+}
